@@ -13,7 +13,7 @@ const HomeScreen = (): React.ReactElement => {
         resizeMode="contain"
       />
 
-      <Text style={styles.title}>Bem-vindo a Gestão de Motos</Text>
+      <Text style={styles.title}>Bem-vindo à Gestão de Motos</Text>
       <Text style={styles.subtitle}>Use o menu para acessar os pátios</Text>
 
     </View>
