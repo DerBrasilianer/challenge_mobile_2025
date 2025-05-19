@@ -47,11 +47,11 @@ const FilialScreen = (): React.ReactElement => {
 
     <Navigator>
 
-      <Screen name="Cadastrar Filial" options={{ headerShown: false }}>
+      <Screen name="Gestão de Filiais - Cadastro" options={{ headerShown: false }}>
         {() => <FilialFormulario onGravar={gravar} />}
       </Screen>
       
-      <Screen name="Listar Filiais" options={{ headerShown: false }}>
+      <Screen name="Gestão de Filiais - Listagem" options={{ headerShown: false }}>
         {() => <FilialListagem lista={lista} onRemover={remover} />}
       </Screen>
 

@@ -52,11 +52,11 @@ const MotoScreen = (): React.ReactElement => {
 
     <Navigator>
 
-      <Screen name="Adicionar Moto" options={{ headerShown: false }}>
+      <Screen name="Gestão de Motos - Cadastro" options={{ headerShown: false }}>
         {() => <MotoFormulario onGravar={gravar} />}
       </Screen>
 
-      <Screen name="Listar Motos" options={{ headerShown: false }}>
+      <Screen name="Gestão de Motos - Listagem" options={{ headerShown: false }}>
         {() => <MotoListagem lista={lista} onRemover={remover} />}
       </Screen>
       
