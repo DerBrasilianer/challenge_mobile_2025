@@ -45,7 +45,7 @@ Este aplicativo foi desenvolvido para o **Challenge da Mottu**, com o objetivo d
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/DerBrasilianer/challenge_mobile_2025.git
-   cd <nome-do-projeto>
+   cd challenge_mobile_2025
    ```
 
 2. **Instale as dependências**:
