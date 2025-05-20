@@ -34,12 +34,6 @@ Este aplicativo foi desenvolvido para o **Challenge da Mottu**, com o objetivo d
 
 ## 🚀 Como Rodar o Projeto Localmente
 
-### ✅ Pré-requisitos
-
-- **Node.js** (versão 16 ou superior)
-- **Expo CLI**
-- **Emulador Android configurado** ou o **aplicativo Expo Go** instalado no celular
-
 ### 📦 Passos
 
 1. **Clone o repositório**:
