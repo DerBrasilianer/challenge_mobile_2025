@@ -49,26 +49,45 @@ Este aplicativo foi desenvolvido para o **Challenge da Mottu**, com o objetivo d
    ```
 
 2. **Instale as dependências**:
+   
+   Instale todas as dependências do projeto com o comando abaixo:
    ```bash
-    npm install -g expo-cli
-
-    npm install @react-navigation/native
-    expo install react-native-screens react-native-safe-area-context
-
-    npm install @react-navigation/drawer
-    expo install react-native-gesture-handler react-native-reanimated
-
-    npm install @react-navigation/bottom-tabs
-
-    expo install @react-native-async-storage/async-storage
-
-    npm install @expo/vector-icons
-
-    npm install --save-dev typescript @types/react @types/react-native
-
+    npm install
    ```
+   Pacote de navegação para o React Navigation:
+    ```bash
+    npm install @react-navigation/native
+    ```
+    Navegação em React Native:
+    ```bash
+    expo install react-native-screens react-native-safe-area-context
+    ```
+    Navegação em Drawer-Navigation
+    ```bash
+    npm install @react-navigation/drawer
+    ```
+    Também será necessário instalar as dependências para gestos e animações:
+    ```bash
+    expo install react-native-gesture-handler react-native-reanimated
+    ```
+    Navegação em Bottom-Tabs
+    ```bash
+    npm install @react-navigation/bottom-tabs
+    ```
+    Armazenamento em Async-Storage
+    ```bash
+    expo install @react-native-async-storage/async-storage
+    ```
+    Biblioteca de ícones usados no projeto
+    ```bash
+    npm install @expo/vector-icons
+    ```
+    E por fim, instale o TypeScript e as definições de tipos para React e React Native:
+    ```bash
+    npm install --save-dev typescript @types/react @types/react-native
+    ```
 
-3. **Execute o projeto com Expo**:
+4. **Execute o projeto com Expo**:
    ```bash
    npx expo start
    ```
