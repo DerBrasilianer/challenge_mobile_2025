@@ -37,7 +37,10 @@ const FilialFormulario = ({ onGravar }: Props): React.ReactElement => {
 
   return (
 
-    <ScrollView contentContainerStyle={styles.container}>
+    <ScrollView 
+      style={styles.scrollContainer}
+      contentContainerStyle={styles.container}
+    >
 
       <Image
         source={require('./assets/mottu-logo.png')}
@@ -62,8 +65,9 @@ const FilialFormulario = ({ onGravar }: Props): React.ReactElement => {
         keyboardType="numeric"
       />
 
-      <View style={styles.buttonSpacing} />
-      <Button title="Cadastrar Filial" onPress={salvar} />
+      <View style={styles.botaoContainer}>
+        <Button title="Cadastrar Filial" onPress={salvar} />
+      </View>
 
     </ScrollView>
 
@@ -73,8 +77,16 @@ const FilialFormulario = ({ onGravar }: Props): React.ReactElement => {
 
 const styles = StyleSheet.create({
 
+  scrollContainer: {
+
+    flex: 1,
+    backgroundColor: '#00B131'
+
+  },
+
   container: {
 
+    flexGrow: 1,
     padding: 20,
     backgroundColor: '#00B131',
     alignItems: 'center'
@@ -110,9 +122,10 @@ const styles = StyleSheet.create({
 
   },
 
-  buttonSpacing: {
+  botaoContainer: {
 
-    marginTop: 16
+    marginTop: 20,
+    width: '100%'
 
   },
 
